@@ -1,0 +1,60 @@
+/*CSS*/
+#espaco{
+	background-color: #04A1DA;
+	color: #fff;
+}
+
+#splash{
+	border: 1px dotted;
+	width: 200px;
+	height: 115px;
+	margin: 80px auto;
+	position: relative;
+}
+
+#splash a{
+	cursor: pointer;
+	border: 1px solid;
+	padding: 8px 15px;
+	background-color: #54D07C;
+}
+
+#splash a:hover{
+	background-color: #AEA4EA;
+	color:#000;
+}
+
+#playground{
+	width: 700px;
+	height: 400px;
+	background: #fff;
+	font-family: verdana, sans-serif;
+	border: solid 1px;
+}
+
+#welcomeScreen{
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	z-index: 100;
+	background-image: url(sprites/welcome.jpg);
+	font-family: verdana, sans-serif;
+}
+
+#welcomeScreen div{
+	position: absolute;
+	top: 120px;
+	width: 700px;
+	color: #000;
+}
+
+#welcomeScreen{
+	cursor: pointer;
+}
+
+#loadingBar{
+	position: relative;
+	height: 15px;
+	width: 0px;
+	background: red;
+}
